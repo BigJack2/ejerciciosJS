@@ -9,6 +9,7 @@ let ejecutar = document.getElementById("btnEjecutar");
 const cambiarNombre= () => {
   let nombre=prompt("Ingresa tu nombre");
   alert ("Tu nombre es: " + nombre)
+  console.log(nombre)
 }
 
 //Eventos se recomiendan que vayan al final
